@@ -11,6 +11,8 @@ class Main(models.Model):
         new_filename = f'{uuid.uuid4()}.{ext_file}'
         return os.path.join('background/', new_filename)
 
+    site_title = models.CharField(max_length=50)
+    site_logo = models.ImageField(upload_to=get_file_name, help_text='Should be a small icon')
     line_1 = models.CharField(max_length=200, db_index=True)
     line2 = models.CharField(max_length=200, db_index=True)
     main_background = models.ImageField(upload_to=get_file_name)

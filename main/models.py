@@ -1,6 +1,7 @@
 from django.db import models
 import uuid
 import os
+from ckeditor.fields import RichTextField
 # Create your models here.
 
 
@@ -31,8 +32,8 @@ class Home(models.Model):
         new_filename = f'{uuid.uuid4()}.{ext_file}'
         return os.path.join('Home/', new_filename)
 
-    intro_message_1 = models.TextField(max_length=500)
-    intro_message_2 = models.TextField(max_length=500)
+    intro_message_1 = RichTextField(max_length=500)
+    intro_message_2 = RichTextField(max_length=500)
     intro_photo = models.ImageField(upload_to=get_file_name)
 
     class Meta:

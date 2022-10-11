@@ -2,6 +2,7 @@ from django.contrib import admin
 from .models import Main, Home, About, Products, Contacts
 from modeltranslation.admin import TranslationAdmin
 
+
 # Register your models here.
 #admin.site.register(Main)
 #admin.site.register(Home)
@@ -17,8 +18,8 @@ class MainAdmin(TranslationAdmin):
 
 @admin.register(Home)
 class HomeAdmin(TranslationAdmin):
+    # form = HomeAdminForm
     pass
-
 
 @admin.register(About)
 class AboutAdmin(TranslationAdmin):

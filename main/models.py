@@ -50,7 +50,7 @@ class About(models.Model):
         new_filename = f'{uuid.uuid4()}.{ext_file}'
         return os.path.join('About/', new_filename)
 
-    about_text = models.TextField(max_length=1000)
+    about_text = RichTextField(max_length=1000)
     photo = models.ImageField(upload_to=get_file_name)
 
     class Meta:
@@ -67,8 +67,8 @@ class Products(models.Model):
         new_filename = f'{uuid.uuid4()}.{ext_file}'
         return os.path.join('Products/', new_filename)
 
-    name = models.CharField(max_length=300, db_index=True)
-    description = models.CharField(max_length=500)
+    name = RichTextField(max_length=300, db_index=True)
+    description = RichTextField(max_length=500)
     is_visible = models.BooleanField(default=True)
     position = models.SmallIntegerField()
     photo = models.ImageField(upload_to=get_file_name)
@@ -82,7 +82,7 @@ class Products(models.Model):
 
 
 class Contacts(models.Model):
-    title = models.CharField(max_length=300)
+    title = RichTextField(max_length=300)
     open_hours_sunday = models.CharField(max_length=100)
     open_hours_monday = models.CharField(max_length=100)
     open_hours_tuesday = models.CharField(max_length=100)
@@ -90,8 +90,8 @@ class Contacts(models.Model):
     open_hours_thursday = models.CharField(max_length=100)
     open_hours_friday = models.CharField(max_length=100)
     open_hours_saturday = models.CharField(max_length=100)
-    address = models.CharField(max_length=300)
-    tel = models.CharField(max_length=200)
+    address = RichTextField(max_length=300)
+    tel = RichTextField(max_length=200)
 
     class Meta:
         verbose_name_plural = 'Contacts'

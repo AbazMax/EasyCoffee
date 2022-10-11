@@ -40,4 +40,4 @@ def contacts(request):
             'main': main,
             }
 
-    return render(request, 'store.html', context=data)
+    return render(request, 'contacts.html', context=data)

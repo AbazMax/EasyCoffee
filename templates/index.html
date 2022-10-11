@@ -1,5 +1,5 @@
 {% load static %}
-
+{% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,8 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Business Casual - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href={% static "assets/favicon.ico" %} />
+        <title>{{ main.site_title }}</title>
+        <link rel="icon" type="image/x-icon" href={{ main.site_logo.url }} />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -18,23 +18,41 @@
         <link href={% static "css/styles.css" %} rel="stylesheet" />
     </head>
     <body>
+        <div>
+            <form action="{% url 'set_language' %}" method="post">
+                {% csrf_token %}
+                <input name="next" type="hidden" value="{{ redirect_to }}">
+                <select name="language">
+                    {% get_current_language as LANGUAGE_CODE %}
+                    {% get_available_languages as LANGUAGES %}
+                    {% get_language_info_list for LANGUAGES as languages %}
+                    {% for language in languages %}
+                        <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %}
+                            selected{% endif %}>
+                        {{ language.name_local }} ({{ language.code }})
+                        </option>
+                    {% endfor %}
+                </select>
+                <input type="submit" value="Go">
+            </form>
+        </div>
         <header>
             <h1 class="site-heading text-center text-faded d-none d-lg-block">
-                <span class="site-heading-upper text-primary mb-3">A Free Bootstrap Business Theme</span>
-                <span class="site-heading-lower">Business Casual</span>
+                <span class="site-heading-upper text-primary mb-3">{{ main.line_1 }}</span>
+                <span class="site-heading-lower">{{ main.line_2 }}</span>
             </h1>
         </header>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
             <div class="container">
-                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="">{{ main.line_2 }}</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/">Home</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/about/">About</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/products/">Products</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/store/">Store</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/">{% trans 'Home' %}</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/about/">{% trans 'About' %}</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/products/">{% trans 'Products' %}</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/contacts/">{% trans 'Contacts' %}</a></li>
                     </ul>
                 </div>
             </div>

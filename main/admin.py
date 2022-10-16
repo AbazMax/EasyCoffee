@@ -18,7 +18,6 @@ class MainAdmin(TranslationAdmin):
 
 @admin.register(Home)
 class HomeAdmin(TranslationAdmin):
-    # form = HomeAdminForm
     pass
 
 @admin.register(About)

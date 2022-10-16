@@ -67,18 +67,18 @@ class Products(models.Model):
         new_filename = f'{uuid.uuid4()}.{ext_file}'
         return os.path.join('Products/', new_filename)
 
-    name = RichTextField(max_length=300, db_index=True)
+    name = RichTextField(max_length=500, db_index=True)
     description = RichTextField(max_length=500)
     is_visible = models.BooleanField(default=True)
     position = models.SmallIntegerField()
-    photo = models.ImageField(upload_to=get_file_name)
+    photo = models.ImageField(upload_to=get_file_name, help_text="recommended resolution 600-900px ")
 
     class Meta:
         verbose_name_plural = 'Products'
         ordering = ('position', )
 
     def __str__(self):
-        return f'{self.name} position - {self.position}'
+        return f'Position - {self.position}'
 
 
 class Contacts(models.Model):

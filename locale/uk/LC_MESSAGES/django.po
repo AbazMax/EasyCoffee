@@ -64,3 +64,6 @@ msgstr "Продукти"
 msgid "Contacts"
 msgstr "Контакти"
 
+#: templates/main.html:11
+msgid "Visit Us Today!"
+msgstr "Завітай до нас!"

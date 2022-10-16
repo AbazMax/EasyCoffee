@@ -15,8 +15,10 @@ def main(request):
 
 def about(request):
     about = About.objects.first()
+    main = Main.objects.first()
 
     data = {'about': about,
+            'main': main,
             }
     return render(request, 'about.html', context=data)
 

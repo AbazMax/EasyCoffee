@@ -18,11 +18,11 @@
         <link href={% static "css/styles.css" %} rel="stylesheet" />
     </head>
     <body>
-        <div>
+        <div style="text-align: right">
             <form action="{% url 'set_language' %}" method="post">
                 {% csrf_token %}
                 <input name="next" type="hidden" value="{{ redirect_to }}">
-                <select name="language">
+                <select style="background-color: #330000; color: #e6a756; border-color: transparent" name="language">
                     {% get_current_language as LANGUAGE_CODE %}
                     {% get_available_languages as LANGUAGES %}
                     {% get_language_info_list for LANGUAGES as languages %}
@@ -33,7 +33,7 @@
                         </option>
                     {% endfor %}
                 </select>
-                <input type="submit" value="Go">
+                <input style="background-color: #330000; color: #e6a756; border-color: transparent " type="submit" value="Go">
             </form>
         </div>
         <header>
@@ -50,9 +50,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/">{% trans 'Home' %}</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/about/">{% trans 'About' %}</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/products/">{% trans 'Products' %}</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/contacts/">{% trans 'Contacts' %}</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/about/#about">{% trans 'About' %}</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/products/#prod_page">{% trans 'Products' %}</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/contacts/#cont_form">{% trans 'Contacts' %}</a></li>
                     </ul>
                 </div>
             </div>

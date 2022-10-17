@@ -1,0 +1,1 @@
+web: gunicorn EasyCoffe.wsgi --log-file -

@@ -1,0 +1,1347 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-10-07T13:12:22.617Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Main",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-10-07T13:19:39.772Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Main",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Line 1\", \"Line 2\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-10-09T15:19:30.063Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Irish coffee position - 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-10-09T15:19:34.627Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Irish coffee position - 1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-10-09T15:20:55.644Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Main",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Site title [uk]\", \"Line 1 [uk]\", \"Line 2 [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-10-11T12:48:27.241Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Home",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-10-11T12:49:20.362Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-10-11T12:51:53.353Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-10-11T13:27:49.714Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Intro message 1 [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-10-11T13:28:34.025Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Intro message 1 [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-10-11T13:29:26.776Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Intro message 1 [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-10-11T13:29:51.047Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Intro message 1 [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-10-11T13:30:16.482Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Intro message 1 [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-10-11T13:30:57.856Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Intro message 1 [en]\", \"Intro message 2 [en]\", \"Intro message 2 [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-10-11T13:31:27.883Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Intro message 1 [en]\", \"Intro message 2 [en]\", \"Intro message 2 [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-10-12T10:49:50.155Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Main",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Line 1 [uk]\", \"Line 2 [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-10-12T10:53:23.581Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Intro message 1 [uk]\", \"Intro message 2 [en]\", \"Intro message 2 [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-10-12T10:54:17.358Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Intro message 1 [uk]\", \"Intro message 2 [en]\", \"Intro message 2 [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-10-12T10:54:47.604Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Intro message 1 [uk]\", \"Intro message 2 [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2022-10-12T11:03:51.280Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Intro message 2 [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2022-10-12T11:08:19.834Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "About",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2022-10-12T11:23:43.309Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "About",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About text [en]\", \"About text [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2022-10-12T12:28:47.843Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Contacts",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2022-10-12T12:29:32.899Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Contacts",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Address [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2022-10-12T12:29:58.464Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Contacts",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tel [en]\", \"Tel [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2022-10-12T12:30:28.530Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Contacts",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title [en]\", \"Title [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2022-10-12T12:30:55.403Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Contacts",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Address [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2022-10-15T11:02:51.503Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<p>BLENDED TO PERFECTION</p>\r\n\r\n<p>COFFEES &amp; TEAS</p> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\", \"Name [uk]\", \"Description [en]\", \"Description [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2022-10-15T11:06:39.241Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<h5><em>BLENDED TO PERFECTION</em></h5>\r\n\r\n<h3><strong>COFFEES &amp; TEAS</strong></h3> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2022-10-15T11:07:26.773Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<h5><em>BLENDED TO PERFECTION</em></h5>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3><strong>COFFEES &amp; TEAS</strong></h3> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2022-10-15T11:07:55.559Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<h5>BLENDED TO PERFECTION</h5>\r\n\r\n<h5>COFFEES &amp; TEAS</h5> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2022-10-15T11:10:05.964Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<h5>BLENDED TO PERFECTION</h5>\r\n\r\n<h5>COFFEES &amp; TEAS</h5> position - 1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2022-10-15T11:11:11.152Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<h5><strong>BLENDED TO PERFECTION</strong></h5>\r\n\r\n<h5><strong>COFFEES &amp; TEAS</strong></h5> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2022-10-15T11:12:22.398Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<h5 style=\"text-align:right\"><strong>BLENDED TO PERFECTION</strong></h5>\r\n\r\n<h5 style=\"text-align:right\"><strong>COFFEES &amp; TEAS</strong></h5> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2022-10-15T11:12:55.760Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<p><strong>BLENDED TO PERFECTION</strong></p>\r\n\r\n<p><strong>COFFEES &amp; TEAS</strong></p> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2022-10-15T11:13:19.324Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<p>BLENDED TO PERFECTION</p>\r\n\r\n<p>COFFEES &amp; TEAS</p> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2022-10-15T11:15:30.742Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<h4>BLENDED TO PERFECTION</h4>\r\n\r\n<h2>COFFEES &amp; TEAS</h2> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2022-10-15T11:15:51.720Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<h4><strong>BLENDED TO PERFECTION</strong></h4>\r\n\r\n<h2><em>COFFEES &amp; TEAS</em></h2> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2022-10-15T11:16:26.476Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<h5><strong>BLENDED TO PERFECTION</strong></h5>\r\n\r\n<h2><em>COFFEES &amp; TEAS</em></h2> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2022-10-15T11:16:39.620Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<h5><strong>BLENDED TO PERFECTION</strong></h5>\r\n\r\n<h1><em>COFFEES &amp; TEAS</em></h1> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2022-10-15T11:17:27.215Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<p><span style=\"font-size:11px\"><strong>BLENDED TO PERFECTION</strong></span></p>\r\n\r\n<p><span style=\"font-size:20px\"><em>COFFEES &amp; TEAS</em></span></p> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2022-10-15T11:17:58.477Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<p><span style=\"font-size:14px\"><strong>BLENDED TO PERFECTION</strong></span></p>\r\n\r\n<p><span style=\"font-size:26px\"><em>COFFEES &amp; TEAS</em></span></p> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2022-10-15T11:18:53.039Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<p><span style=\"font-family:Arial,Helvetica,sans-serif\"><span style=\"font-size:14px\"><strong>BLENDED TO PERFECTION</strong></span></span></p>\r\n\r\n<p><span style=\"font-family:Arial,Helvetica,sans-serif\"",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2022-10-15T11:20:11.859Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<h2 style=\"font-style:italic\"><span style=\"font-family:Arial,Helvetica,sans-serif\"><span style=\"font-size:14px\"><strong>BLENDED TO PERFECTION</strong></span></span></h2>\r\n\r\n<p><cite><span style=\"font-",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2022-10-15T11:20:45.678Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<h2 style=\"font-style:italic\"><span style=\"font-family:Arial,Helvetica,sans-serif\"><span style=\"font-size:14px\"><strong>BLENDED TO PERFECTION</strong></span></span></h2>\r\n\r\n<p><cite><span style=\"font-",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2022-10-15T11:23:42.223Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "<h2>BLENDED TO PERFECTION</h2>\r\n\r\n<h2>COFFEES &amp; TEAS</h2> position - 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2022-10-15T11:24:06.703Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "<h2>BLENDED TO PERFECTION</h2>\r\n\r\n<h2>COFFEES &amp; TEAS</h2> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2022-10-15T11:25:07.435Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "<h5><em>BLENDED TO PERFECTION</em></h5>\r\n\r\n<h2>COFFEES &amp; TEAS</h2> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\", \"Description [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2022-10-15T11:25:27.834Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "<h5><span style=\"color:#c0392b\"><em>BLENDED TO PERFECTION</em></span></h5>\r\n\r\n<h2>COFFEES &amp; TEAS</h2> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2022-10-15T11:26:08.810Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "<h5><span style=\"color:#330000\"><em>BLENDED TO PERFECTION</em></span></h5>\r\n\r\n<h2>COFFEES &amp; TEAS</h2> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [en]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2022-10-15T11:26:47.687Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "<h5><span style=\"color:#330000\"><em>BLENDED TO PERFECTION</em></span></h5>\r\n\r\n<h2>COFFEES &amp; TEAS</h2> position - 1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2022-10-15T11:31:09.014Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "<h5><span style=\"color:#330000\"><em>DELICIOUS TREATS, GOOD EATS</em></span></h5>\r\n\r\n<h2>BAKERY &amp; KITCHEN</h2> position - 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2022-10-15T11:31:42.984Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "<h5><span style=\"color:#330000\"><em>СМАЧНІ ЛАССОЩІ ГАРНО СМАКУЮТЬ</em></span></h5>\r\n\r\n<h2>ПЕКАРНЯ ТА КУХНЯ</h2> position - 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2022-10-15T11:32:06.300Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "<h5><span style=\"color:#330000\"><em>Ідеальний бленд</em></span></h5>\r\n\r\n<h2>Кава або чай</h2> position - 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2022-10-15T11:32:53.720Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "<h5><span style=\"color:#330000\"><em>Смачні ласощі гарно смакують</em></span></h5>\r\n\r\n<h2>ПЕКАРНЯ ТА КУХНЯ</h2> position - 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name [uk]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2022-10-15T11:35:34.094Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "<h5><span style=\"color:#330000\"><em>З усього світу</em></span></h5>\r\n\r\n<h2>Спеціальні бленди</h2> position - 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add about",
+        "content_type": 7,
+        "codename": "add_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change about",
+        "content_type": 7,
+        "codename": "change_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete about",
+        "content_type": 7,
+        "codename": "delete_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view about",
+        "content_type": 7,
+        "codename": "view_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add contacts",
+        "content_type": 8,
+        "codename": "add_contacts"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change contacts",
+        "content_type": 8,
+        "codename": "change_contacts"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete contacts",
+        "content_type": 8,
+        "codename": "delete_contacts"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view contacts",
+        "content_type": 8,
+        "codename": "view_contacts"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add home",
+        "content_type": 9,
+        "codename": "add_home"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change home",
+        "content_type": 9,
+        "codename": "change_home"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete home",
+        "content_type": 9,
+        "codename": "delete_home"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view home",
+        "content_type": 9,
+        "codename": "view_home"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add main",
+        "content_type": 10,
+        "codename": "add_main"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change main",
+        "content_type": 10,
+        "codename": "change_main"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete main",
+        "content_type": 10,
+        "codename": "delete_main"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view main",
+        "content_type": 10,
+        "codename": "view_main"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add products",
+        "content_type": 11,
+        "codename": "add_products"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change products",
+        "content_type": 11,
+        "codename": "change_products"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete products",
+        "content_type": 11,
+        "codename": "delete_products"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view products",
+        "content_type": 11,
+        "codename": "view_products"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$ZfrtxaOWogkBUPGJcScEBW$JGYljnKaUQ7BywwOOILaC+MxV+0ezAHUooSwiKedUAk=",
+        "last_login": "2022-10-03T14:40:00.600Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-10-03T14:39:43.444Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "main",
+        "model": "about"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "main",
+        "model": "contacts"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "main",
+        "model": "home"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "main",
+        "model": "main"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "main",
+        "model": "products"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9mnx1bwu86hwtu9b3jij9zijr5se51y6",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAURO_C2hCg-vm4dO8ZmgE-UjVtUtqV8e7apAvdzntvXqrHutR-bTL3Q1ZnZdXhd4tIDxk3kO8Yb5NO07jMQ9Sbonfa9HXK8rzs7t9BRavf2iegRF-6gJyII4McF3LGIoiHt4ENgQpIWCRwZ0ii2EJkjifHUO8PBTU4SA:1ofMbw:FPwMu26gQAGROar0zOQT7UY8BLktUFju8hEDkPhctT0",
+        "expire_date": "2022-10-17T14:40:00.606Z"
+    }
+},
+{
+    "model": "main.main",
+    "pk": 1,
+    "fields": {
+        "site_title": "EasyCoffee",
+        "site_title_en": "EasyCoffee",
+        "site_title_uk": "Легка кава",
+        "site_logo": "background/022d0025-72fb-4f5e-ac9c-492b64787ce2.ico",
+        "line_1": "A cafe were you want to be every morning",
+        "line_1_en": "A cafe were you want to be every morning",
+        "line_1_uk": "Місце де ти хочешь бути кожного ранку",
+        "line_2": "Easy Coffee",
+        "line_2_en": "Easy Coffee",
+        "line_2_uk": "Easy Coffee",
+        "main_background": "background/ab952bb2-6937-4815-9434-16118019ec13.jpg"
+    }
+},
+{
+    "model": "main.home",
+    "pk": 1,
+    "fields": {
+        "intro_message_1": "<h4 style=\"text-align:center\"><strong>FRESH COFFEE</strong></h4>\r\n\r\n<h1 style=\"text-align:center\"><strong>WORTH DRINKING</strong></h1>\r\n\r\n<p style=\"text-align:center\">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!</p>",
+        "intro_message_1_en": "<h4 style=\"text-align:center\"><strong>FRESH COFFEE</strong></h4>\r\n\r\n<h1 style=\"text-align:center\"><strong>WORTH DRINKING</strong></h1>\r\n\r\n<p style=\"text-align:center\">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!</p>",
+        "intro_message_1_uk": "<h4 style=\"text-align:center\"><em>Свіжа кава</em></h4>\r\n\r\n<h1 style=\"text-align:center\"><strong>ВАРТО СПРОБУВАТИ</strong></h1>\r\n\r\n<p style=\"text-align:center\">Кожна чашка нашої якісної авторської кави починається з місцевих, відібраних вручну інгредієнтів. Як тільки ви спробуєте, наша кава стане приємним доповненням до вашої повсякденної ранкової рутини - ми це гарантуємо!</p>",
+        "intro_message_2": "<h4 style=\"text-align:center\"><em>OUR PROMISE</em></h4>\r\n\r\n<h1 style=\"text-align:center\"><strong>TO YOU</strong></h1>\r\n\r\n<p style=\"text-align:center\">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>",
+        "intro_message_2_en": "<h4 style=\"text-align:center\"><em>OUR PROMISE</em></h4>\r\n\r\n<h1 style=\"text-align:center\"><strong>TO YOU</strong></h1>\r\n\r\n<p style=\"text-align:center\">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>",
+        "intro_message_2_uk": "<h4 style=\"text-align:center\"><em>Ми обіцяемо</em></h4>\r\n\r\n<h1 style=\"text-align:center\"><strong>Тобі</strong></h1>\r\n\r\n<p style=\"text-align:center\">Коли ви заходите в наше кафе, щоб розпочати свій день, ми прагнемо надати вам доброзичливе обслуговування, гостинну атмосферу та, перш за все, чудові продукти, виготовлені з інгредієнтів найвищої якості. Якщо ви не задоволені, повідомте нам, і ми зробимо все можливе, щоб виправити ситуацію!</p>",
+        "intro_photo": "Home/5c03f80f-6450-445d-97ec-1f05121ecfac.jpg"
+    }
+},
+{
+    "model": "main.about",
+    "pk": 1,
+    "fields": {
+        "about_text": "<h5><em>STRONG COFFEE, STRONG ROOTS</em></h5>\r\n\r\n<h1>ABOUT OUR CAFE</h1>\r\n\r\n<p>Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee sourced from artisan farmers in various regions of South and Central America. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our cafe.</p>\r\n\r\n<p>We guarantee that you will fall in&nbsp;<em>lust</em>&nbsp;with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine, an outing with friends, or simply just to enjoy some alone time.</p>",
+        "about_text_en": "<h5><em>STRONG COFFEE, STRONG ROOTS</em></h5>\r\n\r\n<h1>ABOUT OUR CAFE</h1>\r\n\r\n<p>Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee sourced from artisan farmers in various regions of South and Central America. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our cafe.</p>\r\n\r\n<p>We guarantee that you will fall in&nbsp;<em>lust</em>&nbsp;with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine, an outing with friends, or simply just to enjoy some alone time.</p>",
+        "about_text_uk": "<h5><em>МІЦНА КАВА, МІЦНЕ КОРІННЯ</em></h5>\r\n\r\n<h1>ПРО НАШЕ КАФЕ</h1>\r\n\r\n<p>Заснований у 1987 році братами Ернандес, наш заклад подає насичену каву від фермерів-ремісників у різних регіонах Південної та Центральної Америки. Ми прагнемо подорожувати світом, знаходити найкращу каву та повертати вас у наше кафе.</p>\r\n\r\n<p>Ми гарантуємо, що ви захопитеся&nbsp;пожадливістю&nbsp;з нашими декадентськими сумішами, щойно зайдете всередину, доки не допиєте свій останній ковток. Приєднуйтесь до нас у повсякденній рутині, прогулянці з друзями або просто просто насолодіться часом наодинці.</p>",
+        "photo": "About/5876cdab-6a14-46de-995e-5d989c8b21fc.jpg"
+    }
+},
+{
+    "model": "main.products",
+    "pk": 2,
+    "fields": {
+        "name": "<h5><span style=\"color:#330000\"><em>BLENDED TO PERFECTION</em></span></h5>\r\n\r\n<h2>COFFEES &amp; TEAS</h2>",
+        "name_en": "<h5><span style=\"color:#330000\"><em>BLENDED TO PERFECTION</em></span></h5>\r\n\r\n<h2>COFFEES &amp; TEAS</h2>",
+        "name_uk": "<h5><span style=\"color:#330000\"><em>Ідеальний бленд</em></span></h5>\r\n\r\n<h2>Кава або чай</h2>",
+        "description": "<p>We take pride in our work, and it shows. Every time you order a beverage from us, we guarantee that it will be an experience worth having. Whether it&#39;s our world famous Venezuelan Cappuccino,a refreshing iced herbal tea, or something as simple as a cup of speciality sourced black coffee, you will be coming back for more.</p>",
+        "description_en": "<p>We take pride in our work, and it shows. Every time you order a beverage from us, we guarantee that it will be an experience worth having. Whether it&#39;s our world famous Venezuelan Cappuccino,a refreshing iced herbal tea, or something as simple as a cup of speciality sourced black coffee, you will be coming back for more.</p>",
+        "description_uk": "<p>Ми пишаємося своєю роботою, і це видно. Щоразу, коли ви замовляєте у нас напій, ми гарантуємо, що це буде незабутнє враження. Незалежно від того, чи то наш всесвітньо відомий венесуельський капучино, освіжаючий холодний трав&rsquo;яний чай чи щось таке просте, як чашка спеціальної чорної кави, ви повернетеся за ще.</p>",
+        "is_visible": true,
+        "position": 1,
+        "photo": "Products/ed0552f6-1475-474e-ae88-12bdc8975352.jpg"
+    }
+},
+{
+    "model": "main.products",
+    "pk": 3,
+    "fields": {
+        "name": "<h5><span style=\"color:#330000\"><em>DELICIOUS TREATS, GOOD EATS</em></span></h5>\r\n\r\n<h2>BAKERY &amp; KITCHEN</h2>",
+        "name_en": "<h5><span style=\"color:#330000\"><em>DELICIOUS TREATS, GOOD EATS</em></span></h5>\r\n\r\n<h2>BAKERY &amp; KITCHEN</h2>",
+        "name_uk": "<h5><span style=\"color:#330000\"><em>Смачні ласощі гарно смакують</em></span></h5>\r\n\r\n<h2>ПЕКАРНЯ ТА КУХНЯ</h2>",
+        "description": "<p>Our seasonal menu features delicious snacks, baked goods, and even full meals perfect for breakfast or lunchtime. We source our ingredients from local, oragnic farms whenever possible, alongside premium vendors for specialty goods.</p>",
+        "description_en": "<p>Our seasonal menu features delicious snacks, baked goods, and even full meals perfect for breakfast or lunchtime. We source our ingredients from local, oragnic farms whenever possible, alongside premium vendors for specialty goods.</p>",
+        "description_uk": "<p>Наше сезонне меню включає смачні закуски, випічку та навіть повноцінні страви, ідеальні для сніданку чи обіду. Ми постачаємо наші інгредієнти з місцевих рослинних ферм, коли це можливо, разом із преміальними постачальниками спеціальних товарів.</p>",
+        "is_visible": true,
+        "position": 2,
+        "photo": "Products/62276b53-4733-4717-a147-caaae95ef83f.jpg"
+    }
+},
+{
+    "model": "main.products",
+    "pk": 4,
+    "fields": {
+        "name": "<h5><span style=\"color:#330000\"><em>FROM AROUND THE WORLD</em></span></h5>\r\n\r\n<h2>BULK SPECIALITY BLENDS</h2>",
+        "name_en": "<h5><span style=\"color:#330000\"><em>FROM AROUND THE WORLD</em></span></h5>\r\n\r\n<h2>BULK SPECIALITY BLENDS</h2>",
+        "name_uk": "<h5><span style=\"color:#330000\"><em>З усього світу</em></span></h5>\r\n\r\n<h2>Спеціальні бленди</h2>",
+        "description": "<p>Travelling the world for the very best quality coffee is something take pride in. When you visit us, you&#39;ll always find new blends from around the world, mainly from regions in Central and South America. We sell our blends in smaller to large bulk quantities. Please visit us in person for more details.</p>",
+        "description_en": "<p>Travelling the world for the very best quality coffee is something take pride in. When you visit us, you&#39;ll always find new blends from around the world, mainly from regions in Central and South America. We sell our blends in smaller to large bulk quantities. Please visit us in person for more details.</p>",
+        "description_uk": "<p>Подорожувати світом за найякіснішою кавою &ndash; це те, чим пишаємось. Відвідавши нас, ви завжди знайдете нові суміші з усього світу, переважно з регіонів Центральної та Південної Америки. Ми продаємо наші суміші невеликими та великими партіями. Будь ласка, відвідайте нас особисто для отримання більш детальної інформації.</p>",
+        "is_visible": true,
+        "position": 3,
+        "photo": "Products/afc9d374-f03a-4b05-8fcd-95baa878aa2d.jpg"
+    }
+},
+{
+    "model": "main.contacts",
+    "pk": 1,
+    "fields": {
+        "title": "<h4><em>COME ON IN</em></h4>\r\n\r\n<h1>WE&#39;RE OPEN</h1>\r\n\r\n<p>&nbsp;</p>",
+        "title_en": "<h4><em>COME ON IN</em></h4>\r\n\r\n<h1>WE&#39;RE OPEN</h1>\r\n\r\n<p>&nbsp;</p>",
+        "title_uk": "<h4><em>Завітай до нас</em></h4>\r\n\r\n<h1>ЧЕКАЄМО НА ТЕБЕ</h1>\r\n\r\n<p>&nbsp;</p>",
+        "open_hours_sunday": "Closed",
+        "open_hours_monday": "7:00 AM to 8:00 PM",
+        "open_hours_tuesday": "7:00 AM to 8:00 PM",
+        "open_hours_wednesday": "7:00 AM to 8:00 PM",
+        "open_hours_thursday": "7:00 AM to 8:00 PM",
+        "open_hours_friday": "7:00 AM to 8:00 PM",
+        "open_hours_saturday": "9:00 AM to 5:00 PM",
+        "address": "<p><em><strong>1116 Orchard Street</strong><br />\r\nGolden Valley, Minnesota</em></p>",
+        "address_en": "<p><em><strong>1116 Orchard Street</strong><br />\r\nGolden Valley, Minnesota</em></p>",
+        "address_uk": "<p><em><strong>Орчард-стріт, 1116</strong></em></p>\r\n\r\n<p><em>Золота долина, Міннесота</em></p>",
+        "tel": "<p>&nbsp;</p>\r\n\r\n<p><small><em>Call Anytime</em></small><br />\r\n(317) 585-8468</p>",
+        "tel_en": "<p>&nbsp;</p>\r\n\r\n<p><small><em>Call Anytime</em></small><br />\r\n(317) 585-8468</p>",
+        "tel_uk": "<p>&nbsp;</p>\r\n\r\n<p><small><em>Дзвони у будьякий час</em></small><br />\r\n(317) 585-8468</p>"
+    }
+}
+]
